@@ -16,6 +16,9 @@
   #topbar {
     justify-content: space-between;
   }
+
+  main {
+    padding: 40px;
 }
 
 
