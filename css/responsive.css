@@ -3,12 +3,12 @@
   .social-networks button {
     flex: 1;
   }
-}
 
+  .presentation img {
+    float: left;
+    margin: 0 15px 10px 0;
+  }
 
-.presentation img {
-  float: left;
-  margin: 0 15px 10px 0;
 }
 
 /* TABLET */
@@ -18,73 +18,70 @@
   }
 
   main {
-    padding: 40px;
-}
+    padding: 30px;
+  }
 
-.recipe-origin {
-  display: inline;
-}
+  .recipe-origin {
+    display: inline;
+  }
 
-.recipe-name {
-  font-size: 2rem;
-}
+  .recipe-name {
+    font-size: 2rem;
+  }
 
-.quick-notes ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px 20px;
-}
+  .quick-notes ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 20px;
+  }
 
-.quick-notes li {
-  margin: 0;
-}
+  .quick-notes li {
+    margin: 0;
+  }
 
-.ads {
-  display: block;
-}
+  .ads {
+    display: block;
+  }
+
 }
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
   .recipe-name {
-  font-size: 2.5rem;
-}
+    font-size: 2.5rem;
+  }
 
-.recipe-card {
-  display: flex;
-  gap: 20px;
-}
+  .recipe-card {
+    display: flex;
+    gap: 20px;
+  }
 
-.recipe-video {
-  width: 70%;
-  height: auto;
-}
+  .recipe-video {
+    flex-basis: 70%;  /* Perché flex-basis parla la lingua di Flexbox, mentre width è una larghezza “generica”. */
+    height: auto;
+  }
 
-.recipe-info {
-  width: 30%;
-}
+  .recipe-info {
+    flex-basis: 30%;  /* Perché flex-basis parla la lingua di Flexbox, mentre width è una larghezza “generica”. */
+  }
 
-.quick-notes ul {
-  display: block;
-}
+  .quick-notes ul {
+    display: block;
+  }
 
-.quick-notes li {
-  margin: 15px 0;
-}
+  .quick-notes li {
+    margin: 15px 0;
+  }
 
-.social-networks .label {
+  .social-networks .label {
     display: inline;
-}
+  }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: left;
-}
-
-footer ul {
-  justify-content: flex-end;
-}
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
 
 }
